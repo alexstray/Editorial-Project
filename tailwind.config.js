@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      'playfair': ['Playfair Display', 'serif'],
+    },
+    extend: {
+      backgroundOpacity: ['active'],
+    },
   },
   plugins: [],
 }
