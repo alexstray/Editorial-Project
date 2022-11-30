@@ -7,6 +7,9 @@ import { HeaderComponent } from './components/header/header.component';
 import { FeatureMarqueeComponent } from './components/feature-marquee/feature-marquee.component';
 import { EditTypesComponent } from './components/edit-types/edit-types.component';
 import { LearnTableComponent } from './components/learn-table/learn-table.component';
+import { EditTeamComponent } from './components/edit-team/edit-team.component';
+import { GetStartedComponent } from './components/get-started/get-started.component';
+import { WhyUsComponent } from './components/why-us/why-us.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { LearnTableComponent } from './components/learn-table/learn-table.compon
     HeaderComponent,
     FeatureMarqueeComponent,
     EditTypesComponent,
-    LearnTableComponent
+    LearnTableComponent,
+    EditTeamComponent,
+    GetStartedComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,

@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       backgroundOpacity: ['active'],
 
+      height: {
+        '132': '34rem',
+      },
+
       animation: {
         'marquee': 'marquee 25s linear infinite',
         'marquee2': 'marquee2 25s linear infinite',
