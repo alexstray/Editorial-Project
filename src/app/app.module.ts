@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FeatureMarqueeComponent } from './components/feature-marquee/feature-marquee.component';
+import { EditTypesComponent } from './components/edit-types/edit-types.component';
+import { WhyUsComponent } from './components/why-us/why-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FeatureMarqueeComponent
+    FeatureMarqueeComponent,
+    EditTypesComponent,
+    WhyUsComponent
   ],
   imports: [
     BrowserModule,
