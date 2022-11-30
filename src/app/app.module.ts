@@ -10,6 +10,7 @@ import { LearnTableComponent } from './components/learn-table/learn-table.compon
 import { EditTeamComponent } from './components/edit-team/edit-team.component';
 import { GetStartedComponent } from './components/get-started/get-started.component';
 import { WhyUsComponent } from './components/why-us/why-us.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { WhyUsComponent } from './components/why-us/why-us.component';
     LearnTableComponent,
     EditTeamComponent,
     GetStartedComponent,
-    WhyUsComponent
+    WhyUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
