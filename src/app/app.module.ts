@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FeatureMarqueeComponent } from './components/feature-marquee/feature-marquee.component';
 import { EditTypesComponent } from './components/edit-types/edit-types.component';
-import { WhyUsComponent } from './components/why-us/why-us.component';
+import { LearnTableComponent } from './components/learn-table/learn-table.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { WhyUsComponent } from './components/why-us/why-us.component';
     HeaderComponent,
     FeatureMarqueeComponent,
     EditTypesComponent,
-    WhyUsComponent
+    LearnTableComponent
   ],
   imports: [
     BrowserModule,

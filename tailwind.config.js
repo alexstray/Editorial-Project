@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       'playfair': ['Playfair Display', 'serif'],
+      'roboto': ['Roboto', 'sans-serif'],
     },
     extend: {
       backgroundOpacity: ['active'],
