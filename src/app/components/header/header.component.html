@@ -4,21 +4,89 @@
 </div>
 
 <!--header-->
+
+<div class="h-28 bg-black hidden w-full md:flex">
+  <img src="../../../assets/Logo.png" class="hidden py-2 md:block lg:ml-32">
+
+  <!--dropdown-->
+  <div class="flex items-center ml-auto lg:mr-32">
+    <div class="dropdown relative">
+      <button class="font-roboto text-white inline-flex items-center">
+        <span class="">Services</span>
+        <svg class="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
+        </svg>
+      </button>
+      <!--dropdown menu-->
+      <ul class="dropdown-menu absolute hidden font-roboto pt-1 bg-white border border-gray-200">
+        <div class="flex flex-row justify-center">
+          <div class="flex flex-col px-8">
+            <li class="py-2 px-4 block whitespace-no-wrap font-semibold text-amber-600 text-xl">Academic</li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Dissertation</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Thesis</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Research Paper</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Essay</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Journal Article</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Assignment</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Report</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Admission Essay</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Personal Statment</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Other Documents</a></li>
+            <li class="py-2 px-4 block whitespace-no-wrap font-semibold text-amber-600 text-xl">Author</li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Book</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Manuscript</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Novel</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Screenplay/Script</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Magazine</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Textbook</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Poetry</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Story</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Other Documents</a></li>
+          </div>
+          <div class="flex flex-col px-10">
+            <li class="py-2 px-4 block whitespace-no-wrap font-semibold text-amber-600 text-xl">Business</li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Annual Report</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Manual</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Website Content</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Marketing Material</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Legal Document</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Business Plan</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Other Documents</a></li>
+            <li class="py-2 px-4 block whitespace-no-wrap font-semibold text-amber-600 text-xl">Job Applicant</li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Resume</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Cover Letter</a></li>
+            <li class=""><a class="hover:bg-gray-100 hover:rounded block whitespace-no-wrap" href="#">Other Documents</a></li>
+          </div>
+        </div>
+      </ul>
+    </div>
+    <!--header menu-->
+    <div class="font-roboto text-white">
+      <a href="" class="md:px-2 lg:px-4">Pricing</a>
+      <a href="" class="md:px-2 lg:px-4">Samples</a>
+      <a href="" class="md:px-2 lg:px-4">FAQ</a>
+      <a href="" class="md:px-2 lg:px-4">Contact</a>
+      <button class="bg-amber-500 text-black p-2 rounded-xl hover:bg-opacity-80 md:hidden lg:inline-flex">Order Now</button>
+    </div>
+  </div>
+</div>
+
+
 <div class="h-96">
   <!--hero-->
   <img src="../../../assets/Photo1.jpg" class="absolute w-full h-96 object-cover">
   <div class="relative w-full h-96 bg-black bg-opacity-80">
     <!--logo-->
-    <img src="../../../assets/Logo.png" class="p-4">
+    <img src="../../../assets/Logo.png" class="p-4 md:hidden">
     <!--hero text-->
-    <div class="flex flex-col justify-center items-center font-playfair text-3xl">
+    <div class="flex flex-col justify-center items-center font-playfair text-3xl md:text-7xl md:pt-2">
       <p class="text-white">Professional</p>
       <p class="text-amber-400 mx-1">Editing Services</p>
       <p class="text-white">for your</p>
       <span #textElement class="font-bold text-amber-400 h-12"></span>
     </div>
     <!--hero subtext-->
-    <div class="mx-4 mt-8 flex flex-col justify-end items-end text-center">
+    <div class="mx-4 mt-8 flex items-end justify-center text-center md:pt-6">
       <p class="text-white text-s font-roboto">Ready to take your writing out into the world? Hiring a professional editor is your next step.</p>
     </div>
   </div>
